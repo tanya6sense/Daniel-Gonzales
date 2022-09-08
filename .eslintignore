@@ -1,0 +1,2 @@
+src/routes/Segments/**/*.js
+src/node_modules/*

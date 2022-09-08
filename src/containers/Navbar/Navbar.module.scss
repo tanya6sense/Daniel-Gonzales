@@ -1,0 +1,58 @@
+@import '../../styles/_base.scss';
+
+.navBar {
+  font-family: $siui-font-family !important;
+  font-size: $siui-text-size-med-1 !important;
+  background-color: $siui-color-navbar-background !important;
+  line-height: 64px !important;
+}
+
+.preloginNavbar {
+  line-height: 62px !important;
+  border-bottom: none !important;
+}
+
+.preloginProductName {
+  font-size: 14px;
+  margin-left: 4px;
+  color: black;
+  font-weight: 600;
+  font-family: $siui-font-family;
+}
+
+.navBar :global(.ant-menu-sub) {
+  background-color: $siui-color-navbar-background !important;
+  margin-top: -15px !important;
+  margin-left: 40px !important;
+  padding-right: 68px !important;
+  border-color: $siui-color-navbar-background !important;
+  box-shadow: none !important;
+}
+
+.navBarContainer{
+  background: $siui-color-navbar-background;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 28px;
+  position: relative;
+  top: -3px;
+}
+
+.navLink {
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.active {
+  .navLink {
+    color: $siui-color-navbar-background;
+    background: $siui-color-body-background;
+  }
+}

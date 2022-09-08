@@ -1,0 +1,27 @@
+@import '../../styles/_base.scss';
+
+.appContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.appBody {
+  padding: 20px;
+  flex-grow: 1;
+  overflow-x: hidden;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 24px;
+}
+
+.footer {
+  background-color: $siui-color-body-background;
+  min-width: $website-min-width;
+  text-align: center;
+}

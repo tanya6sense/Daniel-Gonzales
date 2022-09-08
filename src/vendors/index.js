@@ -1,0 +1,17 @@
+require('react');
+require('react-dom');
+require('react-redux');
+require('react-router');
+require('react-router-redux');
+require('redux');
+require('redux-saga');
+require('redux-form');
+require('reselect');
+require('react-router-scroll');
+require('antd');
+require('react-widgets');
+require('superagent');
+require('highcharts');
+require('lodash');
+require('moment');
+require('whatwg-fetch');

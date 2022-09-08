@@ -1,0 +1,32 @@
+@import "../../styles/_base.scss";
+
+.inputError{
+	border-style: solid;
+	border-color: $siui-color-failure !important; 
+	border-radius: 6px;
+	border-width: 1px;
+}
+
+.input{
+	color: black;
+}
+
+.labelError{
+	color: $siui-color-failure;
+}
+
+.msgError{
+	color: $siui-color-failure;
+}
+
+.msgHint{
+	color: $siui-hint-text-color;
+}
+
+.required{
+	color: $siui-color-required;
+}
+
+.msg{
+	margin-top: 2px;
+}
